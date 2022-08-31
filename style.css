@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(./Outfit/static/Outfit-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url(./Outfit/static/Outfit-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./Outfit/static/Outfit-SemiBold.ttf);
+  font-weight: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container {
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 20px;
+  max-width: 300px;
+}
+
+.img-container {
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.banner {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.content {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.desc {
+  font-weight: 400;
+  margin-bottom: 20px;
+  color:hsl(215, 51%, 70%);
+}
+.Spans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  margin-bottom: 1rem;
+}
+.span1 img {
+  margin-right: 8px;
+  width: 10px;
+}
+
+.Spans > span {
+  display: flex;
+  align-items: center;
+}
+.span2 img {
+  min-width: 15px;
+  margin-right: 4px;
+}
+
+.lastContainer {
+  display: flex;
+  align-items: center;
+}
+.lastContainer img {
+  width: 30px;
+  margin-right: 16px;
+}
+.w-300 {
+  font-weight: 300;
+}
+
+.w-400 {
+  font-weight: 400;
+}
+.w-600 {
+  font-weight: 600;
+}
